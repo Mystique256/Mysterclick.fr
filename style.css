@@ -1,0 +1,148 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 300px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+}
+
+.box-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.box-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.box-input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.box-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.box-button:hover {
+    background-color: #0056b3;
+}
+
+.sucess {
+    width: 300px;
+    padding: 20px;
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    color: #155724;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.atlas-link {
+    font-family: 'Pacifico', cursive;
+    font-size: 42px; /* Ajustez la taille de la police selon vos besoins */
+    color: #007BFF; /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+.atlas-link:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+}
+
+a {
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    color: white; /* Couleur du texte */
+    padding: 10px 15px; /* Ajoute un peu d'espace autour du texte */
+    margin-bottom: 20px;
+    border-radius: 5px; /* Arrondit les coins */
+    transition: background-color 0.3s ease; /* Transition douce pour le changement de couleur */
+}
+
+/* Style pour les liens au survol */
+a:hover {
+    background-color: #007BFF; /* Couleur de fond au survol */
+    color: white; /* Couleur du texte au survol */
+}
+
+/* Style pour les boutons */
+.btn {
+    background-color: #007BFF; /* Couleur de fond par défaut pour les boutons */
+    border: none; /* Supprime la bordure par défaut */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Ajoute de l'espace autour du texte */
+    text-align: center; /* Centre le texte */
+    text-decoration: none; /* Supprime le soulignement */
+    display: inline-block; /* Permet d'utiliser la largeur et la hauteur */
+    font-size: 16px; /* Taille de la police */
+    margin: 4px 2px; /* Ajoute de l'espace autour des boutons */
+    cursor: pointer; /* Change le curseur au survol */
+    border-radius: 5px; /* Arrondit les coins */
+    transition: background-color 0.3s ease; /* Transition douce pour le changement de couleur */
+}
+
+/* Style pour les boutons au survol */
+.btn:hover {
+    background-color: #4c75ce; /* Couleur de fond au survol pour les boutons */
+}
+
+table {
+    width: 100%; /* Largeur complète du tableau */
+    border-collapse: collapse; /* Fusionner les bordures */
+    margin-top: 20px; /* Espacement en haut du tableau */
+}
+
+th, td {
+    padding: 12px; /* Espacement interne des cellules */
+    border: 1px solid #ddd; /* Bordure grise claire */
+    text-align: left; /* Alignement du texte à gauche */
+    font-size: 16px; /* Taille de la police */
+}
+
+th {
+    background-color: #007bff; /* Couleur de fond bleue pour les en-têtes */
+    color: white; /* Couleur du texte des en-têtes */
+    font-weight: bold; /* Mettre en gras les en-têtes */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Couleur de fond grise claire pour les lignes paires */
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0; /* Couleur de fond lors du survol des lignes */
+    cursor: pointer; /* Curseur en main lors du survol */
+}
+
+tbody td {
+    transition: background-color 0.3s; /* Transition pour l'effet de survol */
+}
