@@ -57,6 +57,7 @@ if (isset($_REQUEST['username'], $_REQUEST['email'], $_REQUEST['type'], $_REQUES
   placeholder="Mot de passe" required />
   
     <input type="submit" name="submit" value="+ Add" class="box-button" />
+    <input type="button" value="Retour" class="box-button" onclick="window.history.back()">
 </form>
 <?php } ?>
 </body>

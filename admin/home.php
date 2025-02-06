@@ -16,9 +16,9 @@
     <div class="sucess">
     <h1>Bienvenue <?php echo $_SESSION['username']; ?>!</h1>
     <p>C'est votre espace admin.</p>
-    <a  class="box-button" href="add_user.php">Add user</a><br><br><br>
-    <a  class="box-button" href="update.php">Update user</a><br> <br><br>
-    <a  class="box-button" href="../logout.php">Déconnexion</a><br><br><br>
+    <a class="box-button" href="add_user.php">Add user</a><br><br><br>
+    <a class="box-button" href="update.php">Update user</a><br> <br><br>
+    <a class="box-button" href="../logout.php">Déconnexion</a><br><br><br>
     </ul>
     </div>
   </body>
